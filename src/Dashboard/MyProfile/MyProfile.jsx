@@ -16,7 +16,7 @@ const MyProfile = () => {
     queryKey: ["profile", user?.email],
     queryFn: async () => {
       const res = await axiosSecure.get(
-        `https://transcreaw.vercel.app/userProfile/${user?.email}`
+        `http://localhost:5000/userProfile/${user?.email}`
       );
       return res.data;
     },

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../../public/logo.png";
+import logo from "../../../public/logo.jpg";
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import toast from "react-hot-toast";

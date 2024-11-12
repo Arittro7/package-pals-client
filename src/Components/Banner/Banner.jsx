@@ -15,12 +15,11 @@ const Banner = () => {
           <div className="hero-content text-neutral-content">
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">
-                Parcel Delivery Packages in Sustainable
+              <span className="flex text-white">Package<p className="bg-red-500">Pals</p></span> <br />
+              Delivering Care, Right on Time!
               </h1>
               <p className="mb-5">
-                Transcrew a household name for having been the pioneer of
-                Courier and Parcel Services in the country from the Corporate
-                Clients to the average person.
+              Package Pals – Your trusted partner for fast, reliable, and affordable courier services. We handle your deliveries with care, ensuring packages arrive safely and on time, every time.
               </p>
               <label className="input input-bordered flex bg-gray-500 items-center gap-2">
                 <input
@@ -52,8 +51,7 @@ const Banner = () => {
                 </h2>
               </div>
               <p className=" text-gray-500 lg:w-[200px] mb-2">
-                Utilizing lates processes solutions and decades of work
-                experience
+              From local shipments to long-distance deliveries, we make sending and receiving easy and worry-free
               </p>
               <h2 className="bg-[#0984e2] py-2 px-2 cursor-pointer rounded-full mt-4 flex w-[40px] h-[40px] mx-auto justify-center items-center">
                 <VscArrowSmallRight size={30} color="#ffffff" />

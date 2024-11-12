@@ -1,4 +1,4 @@
-import logo from "../../../public/logo.png";
+import logo from "../../../public/logo.jpg";
 const Footer = () => {
   return (
     <div className="mt-12">

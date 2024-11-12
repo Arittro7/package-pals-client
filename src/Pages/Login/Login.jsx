@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import google from "../../../public/google.png";
-import github from "../../../public/github.png";
+import github from "../../../public/gihub.png";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import toast from "react-hot-toast";
 import { TbFidgetSpinner } from "react-icons/tb";
